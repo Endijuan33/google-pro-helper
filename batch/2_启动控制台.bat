@@ -1,10 +1,10 @@
 @echo off
 chcp 936 >nul
-title Google AI Pro (5 TB) 零成本两年全自动控制台
+title Google AI Pro (5 TB) Two Years at Zero Cost Fully Automated Console
 cd /d "%~dp0"
 echo ======================================================================
-echo   正在启动 Google AI Pro (5 TB) 零成本两年全自动控制台...
-echo   控制台地址: http://127.0.0.1:8765
+echo   Starting Google AI Pro (5 TB) Two Years at Zero Cost Fully Automated Console...
+echo   Console URL: http://127.0.0.1:8765
 echo ======================================================================
 start "" "http://127.0.0.1:8765"
 python app.py
